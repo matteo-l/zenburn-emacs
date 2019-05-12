@@ -785,6 +785,10 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(helm-moccur-buffer ((t (:foreground ,zenburn-cyan :background ,zenburn-bg))))
    `(helm-mu-contacts-address-face ((t (:foreground ,zenburn-fg-1 :background ,zenburn-bg))))
    `(helm-mu-contacts-name-face ((t (:foreground ,zenburn-fg :background ,zenburn-bg))))
+;;;;; helm-lxc
+   `(helm-lxc-face-frozen ((t (:foreground ,zenburn-blue :background ,zenburn-bg))))
+   `(helm-lxc-face-running ((t (:foreground ,zenburn-green :background ,zenburn-bg))))
+   `(helm-lxc-face-stopped ((t (:foreground ,zenburn-red :background ,zenburn-bg))))
 ;;;;; helm-swoop
    `(helm-swoop-target-line-face ((t (:foreground ,zenburn-fg :background ,zenburn-bg+1))))
    `(helm-swoop-target-word-face ((t (:foreground ,zenburn-yellow :background ,zenburn-bg+2 :weight bold))))
@@ -1396,6 +1400,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(speedbar-selected-face ((t (:foreground ,zenburn-red))))
    `(speedbar-separator-face ((t (:foreground ,zenburn-bg :background ,zenburn-blue-1))))
    `(speedbar-tag-face ((t (:foreground ,zenburn-yellow))))
+;;;;; swiper
+   `(swiper-isearch-current-match ((t (:foreground ,zenburn-bg :background ,zenburn-blue-1))))
 ;;;;; sx
    `(sx-custom-button
      ((t (:background ,zenburn-fg :foreground ,zenburn-bg-1

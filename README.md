@@ -88,7 +88,7 @@ To see the full list of color names you can override, consult the
 
 The theme supports scaling the font size for some headings and titles as well
 as using a variable-pitch font for those. To enable this, use the following
-settings:
+settings **before** loading `zenburn-theme`:
 
 ```elisp
 ;; use variable-pitch fonts for some headings and titles
@@ -107,7 +107,9 @@ like this:
 
 ![Scaled screenshot](screenshots/scaled.png)
 
-## Ugly colors in the terminal Emacs version
+## FAQ
+
+### Wrong colors in the terminal Emacs version
 
 If your Emacs looks considerably uglier in a terminal (compared to the
 GUI version) try adding this to your `.bashrc` or `.zshrc`:
@@ -118,7 +120,7 @@ export TERM=xterm-256color
 
 Source the `.bashrc` (or `.zshrc`) file and start Emacs again.
 
-# Bugs & Improvements
+## Bugs & Improvements
 
 Please, report any problems that you find on the project's integrated
 issue tracker. If you've added some improvements and you want them

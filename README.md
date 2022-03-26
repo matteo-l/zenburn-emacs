@@ -1,7 +1,8 @@
+# zenburn-theme for Emacs
+
 [![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![MELPA](http://melpa.org/packages/zenburn-theme-badge.svg)](http://melpa.org/#/zenburn-theme)
 [![MELPA Stable](http://stable.melpa.org/packages/zenburn-theme-badge.svg)](http://stable.melpa.org/#/zenburn-theme)
-[![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/bbatsov)
 
 ## About
 
@@ -17,6 +18,16 @@ created this package) built-in theming support available starting with
 Emacs 24.1.
 
 ![Overview screenshot](screenshots/overview.png)
+
+------------
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C2204SR)
+[![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/bbatsov)
+
+You can support the development of Zenburn for Emacs via
+[GitHub Sponsors](https://github.com/sponsors/bbatsov),
+[ko-fi](https://ko-fi.com/bbatsov),
+[PayPal](https://www.paypal.me/bbatsov) and
+[Patreon](https://www.patreon.com/bbatsov).
 
 ## Installation
 
@@ -35,7 +46,7 @@ Now you can load the theme with the interactive function `load-theme` like this:
 
 ### Package.el
 
-Zenburn is available in both [MELPA Stable](http://stable.melpa.org)
+Zenburn is available in [NonGNU ELPA](https://elpa.nongnu.org/), [MELPA Stable](http://stable.melpa.org)
 and [MELPA](http://melpa.org).
 
 You can install `zenburn` with the following command:
@@ -128,7 +139,30 @@ included upstream don't hesitate to send me a patch or even better - a
 GitHub pull request. [These](https://github.com/bbatsov/zenburn-emacs/contributors)
 contributors have done so.
 
-You can support my work on Zenburn and [all my other projects](https://github.com/bbatsov)
-via [Patreon](https://www.patreon.com/bbatsov).
+## Donate
+
+You can support my work on Zenburn and [all my other OSS projects](https://batsov.com/projects)
+via the following platforms:
+
+* [GitHub Sponsors](https://github.com/sponsors/bbatsov)
+* [ko-fi](https://ko-fi.com/bbatsov)
+* [PayPal](https://www.paypal.me/bbatsov)
+* [Patreon](https://www.patreon.com/bbatsov)
+
+## Contributors
+
+Here's a [list](https://github.com/bbatsov/zenburn-emacs/contributors) of all the people who have contributed to the
+development of Zenburn for Emacs.
+
+## Changelog
+
+A fairly extensive changelog is available [here](CHANGELOG.md).
+
+## License
+
+Copyright © 2010-2022 Bozhidar Batsov and
+[contributors](https://github.com/bbatsov/zenburn-emacs/contributors).
+
+Distributed under the GNU General Public License, version 3
 
 [badge-license]: https://img.shields.io/badge/license-GPL_3-green.svg
